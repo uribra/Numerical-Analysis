@@ -1,8 +1,18 @@
-# Numerical-Analysis
-Repository contains some alorithms on numerical methods for constrained and unconstrained optimization. 
+# Optimization Algorithms Toolbox
 
-1.) Quasi-Newton Method with BFGM updating
+This repository contains implementations of several numerical methods for **constrained and unconstrained optimization** in Python. 
 
-2.) Gradient decent with Armijo step size control
+---
 
-3.) Constrained quadratic optmization with binding and non-binding constrained using the active-set method
+## 📚 Algorithms Included
+
+1. **Quasi-Newton Method with BFGS Updating**  
+   Efficient algorithm for unconstrained nonlinear optimization that approximates the Hessian matrix.
+
+2. **Gradient Descent with Armijo Step Size Control**  
+   Basic gradient descent method enhanced with an adaptive step size rule (Armijo condition) to ensure convergence.
+
+3. **Constrained Quadratic Optimization using Active-Set Method**  
+   Solves quadratic programming problems with linear constraints, handling both binding and non-binding constraints via an active-set approach.
+
+---
